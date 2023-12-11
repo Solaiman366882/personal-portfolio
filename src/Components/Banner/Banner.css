@@ -1,0 +1,10 @@
+.banner-img .img-wrap img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    object-position: top;
+    -webkit-mask-image: url(../../assets/images/mask.png);
+    mask-image: url(../../assets/images/mask3.png);
+    mask-size: cover;
+    -webkit-mask-size: cover;
+}
