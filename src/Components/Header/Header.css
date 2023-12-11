@@ -10,15 +10,56 @@
     background: none !important;
     text-transform: capitalize;
     padding: 10px 20px;
+    transition: all 0.6s ease;
+    outline: none;
+    border-radius: 0;
 }
-.menu .menu-links a.active{
+.menu .menu-links a.c-btn{
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 18px;
     background: none !important;
     text-transform: capitalize;
-    padding: 10px 20px;
+    padding: 14px 22px;
+    border: 2px solid #079211;
+    position: relative;
+    border-radius: 0;
+    z-index: 1;
+    transition: all 0.6s ease;
+
 }
+.menu .menu-links a.c-btn:hover{
+    color: #fff;
+
+}
+.menu .menu-links a.c-btn::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #079211;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s !important;
+}
+.menu .menu-links a.c-btn.active::after,
+.menu .menu-links a.c-btn:hover::after{
+    transition: all 0.6s;
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+}
+.menu .menu-links a.active{
+    color: #079211 !important;
+}
+.menu .menu-links a:hover{
+    color: #079211;
+}
+
 /* font-family: 'Merriweather', serif;
 font-family: 'Roboto', sans-serif; */

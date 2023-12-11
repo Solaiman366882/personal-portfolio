@@ -14,7 +14,7 @@ const Header = () => {
 				<NavLink to="/about">about me</NavLink>
 			</li>
 			<li className="menu-links">
-				<NavLink to="/contact">Contact me</NavLink>
+				<NavLink to="/contact" className="c-btn">Contact me</NavLink>
 			</li>
 		</>
 	);
@@ -23,7 +23,7 @@ const Header = () => {
 		<div className="">
 			<div className="navbar bg-primary-bg md:px-5">
 				<div className="flex w-full justify-between items-center">
-					<Link to="/" className="text-white logo font-mer text-3xl font-bold">
+					<Link to="/" className="text-white logo font-mer text-3xl font-bold block -mt-2">
 						Solaiman
 						<span className="text-primary-color text-6xl ">
 							.
@@ -59,7 +59,7 @@ const Header = () => {
 							</ul>
 						</div>
 						<div className="flex-none hidden md:flex">
-							<ul className="menu menu-horizontal px-1">
+							<ul className="menu menu-horizontal items-center px-1">
 								{links}
 							</ul>
 						</div>
