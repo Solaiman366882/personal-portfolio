@@ -9,7 +9,8 @@ export default {
       colors:{
         "primary-bg":"#101018",
         "primary-color":"#079211",
-        "secondary-color":"#707071"
+        "secondary-color":"#707071",
+        "secondary-bg":"#313131",
       },
       fontFamily:{
         "mer":"'Merriweather', serif",
