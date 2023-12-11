@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        "primary-bg":"#101018",
+        "primary-color":"#079211",
+        "secondary-color":"#707071"
+      },
+      fontFamily:{
+        "mer":"'Merriweather', serif",
+        "robot":"'Roboto', sans-serif",
+      }
+    },
   },
   plugins: [require("daisyui")],
 }
