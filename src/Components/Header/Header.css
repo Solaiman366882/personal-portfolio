@@ -27,6 +27,7 @@
     border-radius: 0;
     z-index: 1;
     transition: all 0.6s ease;
+    text-align: center;
 
 }
 .menu .menu-links a.c-btn:hover{
