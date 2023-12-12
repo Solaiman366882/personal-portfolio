@@ -4,7 +4,7 @@ const Footer = () => {
 	return (
 		<div className="w-full bg-[#050507]">
 			<div className="max-w-screen-xl px-5 mx-auto">
-				<div className="section-padding border-b-2 border-gray-500 flex justify-between">
+				<div className="section-padding border-b-2 border-gray-500 flex flex-col lg:flex-row justify-between">
 					<div>
 						<Link
 							to="/"
@@ -16,7 +16,7 @@ const Footer = () => {
 							</span>
 						</Link>
 					</div>
-					<div className="flex gap-6 md:gap-12 justify-between ">
+					<div className="flex gap-5 flex-col md:flex-row md:gap-12 justify-between mt-6 lg:mt-0">
 						<div>
 							<h2 className="text-white font-robot font-bold text-2xl mb-6">
 								Information

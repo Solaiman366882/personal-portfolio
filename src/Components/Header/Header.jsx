@@ -16,10 +16,12 @@ const Header = () => {
 				<a href="#project-section">Projects</a>
 			</li>
 			<li className="menu-links">
-				<NavLink to="/about">about me</NavLink>
+				{/* <NavLink to="/about">about me</NavLink> */}
+				<a href="#skill">About me</a>
 			</li>
 			<li className="menu-links">
-				<NavLink to="/contact" className="c-btn">Contact me</NavLink>
+				{/* <NavLink to="/contact" className="c-btn">Contact me</NavLink> */}
+				<a href="#contact-section" className="c-btn">Contact Me</a>
 			</li>
 		</>
 	);

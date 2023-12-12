@@ -1,19 +1,19 @@
 import ProgressBar from "@ramonak/react-progress-bar";
 const Skill = () => {
 	return (
-		<div className="w-full bg-secondary-bg section-padding">
+		<div className="w-full bg-secondary-bg section-padding" id="skill">
 			<div className="max-w-screen-xl px-5 mx-auto">
 				<div className="title-section flex justify-center items-center">
 					<div className="title-left text-center">
 						<h3 className="subtitle font-mer inline-block">
 							My experience & Education
 						</h3>
-						<h2 className="text-white font-bold text-5xl font-robot capitalize">
+						<h2 className="text-white font-bold text-3xl md:text-5xl font-robot capitalize">
 							Technology that i have Explored
 						</h2>
 					</div>
 				</div>
-				<div className="mt-12 flex gap-5">
+				<div className="mt-12 flex flex-col lg:flex-row gap-5">
 					<div className="w-full flex-1 mx-auto">
 						<h2 className="mb-6 text-white font-bold font-robot text-3xl pb-2 inline-block border-b-2 border-primary-bg">
 							Skills:

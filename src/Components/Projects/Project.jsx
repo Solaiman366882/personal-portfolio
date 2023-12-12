@@ -129,9 +129,9 @@ const Project = () => {
 	return (
 		<div className="w-full section-padding bg-secondary-bg" id="project-section">
 			<div className="max-w-screen-xl px-5 mx-auto">
-				<div className="title-section flex justify-between gap-5 items-center">
-					<div className="title-left">
-						<h3 className="subtitle font-mer">recent work</h3>
+				<div className="title-section flex flex-col lg:flex-row justify-between gap-5 items-center">
+					<div className="title-left text-center lg:text-left">
+						<h3 className="subtitle font-mer inline-block lg:block">recent work</h3>
 						<h2 className="text-white font-bold text-5xl font-robot capitalize">
 							Some of my favorite <br /> projects.
 						</h2>
@@ -142,7 +142,7 @@ const Project = () => {
 						</a>
 					</div>
 				</div>
-				<div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-5">
+				<div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-5">
 					<div className="project-card bg-primary-bg p-2 border-2 border-primary-color">
 						<div>
 							<ImageGallery items={projects} />

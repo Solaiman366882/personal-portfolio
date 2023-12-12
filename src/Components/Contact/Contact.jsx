@@ -26,18 +26,18 @@ const Contact = () => {
     }
 
 	return (
-		<div className="section-padding w-full">
+		<div className="section-padding w-full" id="contact-section">
 			<div className="px-5">
 				<div className="title-section flex justify-center items-center">
 					<div className="title-left text-center">
 						<h3 className="subtitle font-mer inline-block">Contact Me</h3>
-						<h2 className="text-white font-bold text-5xl font-robot capitalize">
+						<h2 className="text-white font-bold text-3xl md:text-5xl font-robot capitalize">
 							Give your message
 						</h2>
 					</div>
 				</div>
 			</div>
-			<div className="max-w-screen-xl mx-auto px-5 flex gap-5 items-center mt-12">
+			<div className="max-w-screen-xl mx-auto px-5 flex flex-col md:flex-row gap-5 items-center mt-12">
 				<div className="flex-1">
 					<img src={contactImg} alt="" />
 				</div>

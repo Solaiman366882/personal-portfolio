@@ -6,21 +6,21 @@ const Services = () => {
 	return (
 		<div className="w-full section-padding" id="service-section">
 			<div className="max-w-screen-xl mx-auto px-5">
-				<div className="title-section flex justify-between gap-5 items-center">
-					<div className="title-left">
-						<h3 className="subtitle font-mer">services</h3>
+				<div className="title-section flex flex-col lg:flex-row justify-between gap-5 items-center">
+					<div className="title-left text-center lg:text-left">
+						<h3 className="subtitle font-mer inline-block mx-auto">services</h3>
 						<h2 className="text-white font-bold text-5xl font-robot capitalize">
 							Services i provide mostly
 						</h2>
 					</div>
 					<div className="title-right">
-						<p className="text-secondary-color font-robot font-medium">
+						<p className="text-secondary-color text-center lg:text-left font-robot font-medium">
 							Discover the best services i offer, and it can be{" "}
 							<br /> customized according to your project.
 						</p>
 					</div>
 				</div>
-				<div className="service-area grid grid-cols-3 gap-5 mt-12">
+				<div className="service-area grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-12">
 					<div className="service-card border-b-4 border-primary-color text-center py-12 px-6 bg-secondary-bg rounded-lg">
 						<div className="service-icon">
 							<img src={webDesignImg} className="mx-auto w-16 h-16" alt="" />
