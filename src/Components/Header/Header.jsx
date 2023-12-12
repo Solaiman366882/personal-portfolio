@@ -35,11 +35,11 @@ const Header = () => {
 						</span>{" "}
 					</Link>
 					<div className="navbar-en">
-						<div className="dropdown block md:hidden">
+						<div className="dropdown block lg:hidden">
 							<div
 								tabIndex={0}
 								role="button"
-								className="btn btn-ghost md:hidden"
+								className="btn btn-ghost lg:hidden"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,7 @@ const Header = () => {
 								{links}
 							</ul>
 						</div>
-						<div className="flex-none hidden md:flex">
+						<div className="flex-none hidden lg:flex">
 							<ul className="menu menu-horizontal items-center px-1">
 								{links}
 							</ul>

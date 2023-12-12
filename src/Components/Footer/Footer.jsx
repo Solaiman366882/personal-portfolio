@@ -53,6 +53,9 @@ const Footer = () => {
 								<li className="text-secondary-color py-2 font-medium">
 									<Link>Facebook</Link>
 								</li>
+								<li className="text-secondary-color py-2 font-medium">
+									<Link>GitHub</Link>
+								</li>
 							</ul>
 						</div>
 					</div>
