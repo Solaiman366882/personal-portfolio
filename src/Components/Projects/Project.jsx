@@ -157,7 +157,7 @@ const Project = () => {
 							<ImageGallery items={project2} />
 						</div>
                         <div className="p-4">
-                            <h1 className="mt-3 text-2xl md:text-4xl font-bold text-white capitalize">Medical Camp - website</h1>
+                            <h1 className="mt-3 text-2xl md:text-4xl font-bold text-white capitalize">Atom Camp - website</h1>
                             <Link className="mt-4 capitalize text-primary-color font-semibold text-lg flex gap-3 items-center" to="https://atom-8ce7b.web.app/" target="_blank">see project <img src={arrowIcon} alt="" /></Link>
                         </div>
 					</div>
@@ -175,7 +175,7 @@ const Project = () => {
 							<ImageGallery items={project4} />
 						</div>
                         <div className="p-4">
-                            <h1 className="mt-3 text-2xl md:text-4xl font-bold text-white capitalize">Wedding management - website</h1>
+                            <h1 className="mt-3 text-2xl md:text-4xl font-bold text-white capitalize">Wedding management</h1>
                             <Link className="mt-4 capitalize text-primary-color font-semibold text-lg flex gap-3 items-center" to="https://react-wedding-planning.web.app/" target="_blank">see project <img src={arrowIcon} alt="" /></Link>
                         </div>
 					</div>
