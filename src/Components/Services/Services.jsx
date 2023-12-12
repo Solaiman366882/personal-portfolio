@@ -4,7 +4,7 @@ import responsiveImg from "../../assets/images/icon/responsive-design.png"
 
 const Services = () => {
 	return (
-		<div className="w-full section-padding">
+		<div className="w-full section-padding" id="service-section">
 			<div className="max-w-screen-xl mx-auto px-5">
 				<div className="title-section flex justify-between gap-5 items-center">
 					<div className="title-left">

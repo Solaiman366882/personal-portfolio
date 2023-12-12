@@ -127,7 +127,7 @@ const Project = () => {
 		},
 	];
 	return (
-		<div className="w-full section-padding bg-secondary-bg">
+		<div className="w-full section-padding bg-secondary-bg" id="project-section">
 			<div className="max-w-screen-xl px-5 mx-auto">
 				<div className="title-section flex justify-between gap-5 items-center">
 					<div className="title-left">
