@@ -1,6 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import profileImg from "../../assets/images/profile.png";
-import resume from "../../assets/images/Answers.pdf";
+import resume from "../../assets/images/solaiman_resume.pdf";
 import "./Banner.css";
 
 const Banner = () => {

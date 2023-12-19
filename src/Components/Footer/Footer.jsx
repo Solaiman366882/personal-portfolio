@@ -43,7 +43,7 @@ const Footer = () => {
 							</h2>
 							<ul>
 								<li className="text-secondary-color py-2 font-medium">
-									<Link>LinkedIn</Link>
+									<Link to="https://www.linkedin.com/in/developer-solaiman/" target="_blank">LinkedIn</Link>
 								</li>
 								<li className="text-secondary-color py-2 font-medium">
 									<a href="mailto:md.soaliman366882@gmail.com">
@@ -54,7 +54,7 @@ const Footer = () => {
 									<Link>Facebook</Link>
 								</li>
 								<li className="text-secondary-color py-2 font-medium">
-									<Link>GitHub</Link>
+									<Link to="https://github.com/Solaiman366882" target="_blank">GitHub</Link>
 								</li>
 							</ul>
 						</div>
