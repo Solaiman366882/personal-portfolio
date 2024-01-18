@@ -1,6 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import profileImg from "../../assets/images/profile.png";
-import resume from "../../assets/images/solaiman_resume.pdf";
+import resume from "../../assets/images/Resume_Of_Solaiman.pdf";
 import "./Banner.css";
 
 const Banner = () => {
@@ -58,7 +58,7 @@ const Banner = () => {
 							<a
 								href={resume}
 								className="c-btn"
-								download="solaiman_resume.pdf"
+								download="Resume_Of_Solaiman.pdf"
 							>
 								resume
 							</a>

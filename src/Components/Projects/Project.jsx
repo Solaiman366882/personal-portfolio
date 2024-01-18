@@ -127,11 +127,16 @@ const Project = () => {
 		},
 	];
 	return (
-		<div className="w-full section-padding bg-secondary-bg" id="project-section">
+		<div
+			className="w-full section-padding bg-secondary-bg"
+			id="project-section"
+		>
 			<div className="max-w-screen-xl px-5 mx-auto">
 				<div className="title-section flex flex-col lg:flex-row justify-between gap-5 items-center">
 					<div className="title-left text-center lg:text-left">
-						<h3 className="subtitle font-mer inline-block lg:block">recent work</h3>
+						<h3 className="subtitle font-mer inline-block lg:block">
+							recent work
+						</h3>
 						<h2 className="text-white font-bold text-5xl font-robot capitalize">
 							Some of my favorite <br /> projects.
 						</h2>
@@ -147,37 +152,108 @@ const Project = () => {
 						<div>
 							<ImageGallery items={projects} />
 						</div>
-                        <div className="p-4">
-                            <h1 className="mt-3 text-2xl md:text-4xl font-bold text-white capitalize">elijah blog - website</h1>
-                            <Link className="mt-4 capitalize text-primary-color font-semibold text-lg flex gap-3 items-center" to="https://elaijas-blog.web.app/" target="_blank">see project <img src={arrowIcon} alt="" /></Link>
-                        </div>
+						<div className="p-4">
+							<h1 className="mt-3 text-2xl md:text-4xl font-bold text-white capitalize">
+								elijah blog - website
+							</h1>
+							<div className="flex gap-5">
+								<Link
+									className="mt-4 capitalize text-primary-color font-semibold text-lg flex gap-3 items-center"
+									to="https://elaijas-blog.web.app/"
+									target="_blank"
+								>
+									see project <img src={arrowIcon} alt="" />
+								</Link>
+								<Link
+									className="mt-4 capitalize text-primary-color font-semibold text-lg flex gap-3 items-center"
+									to="https://github.com/Solaiman366882/Elijah_Blogs_client"
+									target="_blank"
+								>
+									see code <img src={arrowIcon} alt="" />
+								</Link>
+							</div>
+						</div>
 					</div>
 					<div className="project-card bg-primary-bg p-2 border-2 border-primary-color">
 						<div>
 							<ImageGallery items={project2} />
 						</div>
-                        <div className="p-4">
-                            <h1 className="mt-3 text-2xl md:text-4xl font-bold text-white capitalize">Atom Camp - website</h1>
-                            <Link className="mt-4 capitalize text-primary-color font-semibold text-lg flex gap-3 items-center" to="https://atom-8ce7b.web.app/" target="_blank">see project <img src={arrowIcon} alt="" /></Link>
-                        </div>
+						<div className="p-4">
+							<h1 className="mt-3 text-2xl md:text-4xl font-bold text-white capitalize">
+								Atom Camp - website
+							</h1>
+
+							<div className="flex gap-5">
+								<Link
+									className="mt-4 capitalize text-primary-color font-semibold text-lg flex gap-3 items-center"
+									to="https://atom-8ce7b.web.app/"
+									target="_blank"
+								>
+									see project <img src={arrowIcon} alt="" />
+								</Link>
+								<Link
+									className="mt-4 capitalize text-primary-color font-semibold text-lg flex gap-3 items-center"
+									to="https://github.com/Solaiman366882/Medi_camp_Client"
+									target="_blank"
+								>
+									see code <img src={arrowIcon} alt="" />
+								</Link>
+							</div>
+						</div>
 					</div>
 					<div className="project-card bg-primary-bg p-2 border-2 border-primary-color">
 						<div>
 							<ImageGallery items={project3} />
 						</div>
-                        <div className="p-4">
-                            <h1 className="mt-3 text-2xl md:text-4xl font-bold text-white capitalize">Foodily - website</h1>
-                            <Link className="mt-4 capitalize text-primary-color font-semibold text-lg flex gap-3 items-center" to="https://brand-shop-baf20.web.app/" target="_blank">see project <img src={arrowIcon} alt="" /></Link>
-                        </div>
+						<div className="p-4">
+							<h1 className="mt-3 text-2xl md:text-4xl font-bold text-white capitalize">
+								Foodily - website
+							</h1>
+
+							<div className="flex gap-5">
+								<Link
+									className="mt-4 capitalize text-primary-color font-semibold text-lg flex gap-3 items-center"
+									to="https://brand-shop-baf20.web.app/"
+									target="_blank"
+								>
+									see project <img src={arrowIcon} alt="" />
+								</Link>
+								<Link
+									className="mt-4 capitalize text-primary-color font-semibold text-lg flex gap-3 items-center"
+									to="https://github.com/Solaiman366882/Food_Bevarage_Client"
+									target="_blank"
+								>
+									see code <img src={arrowIcon} alt="" />
+								</Link>
+							</div>
+						</div>
 					</div>
 					<div className="project-card bg-primary-bg p-2 border-2 border-primary-color">
 						<div>
 							<ImageGallery items={project4} />
 						</div>
-                        <div className="p-4">
-                            <h1 className="mt-3 text-2xl md:text-4xl font-bold text-white capitalize">Wedding management</h1>
-                            <Link className="mt-4 capitalize text-primary-color font-semibold text-lg flex gap-3 items-center" to="https://react-wedding-planning.web.app/" target="_blank">see project <img src={arrowIcon} alt="" /></Link>
-                        </div>
+						<div className="p-4">
+							<h1 className="mt-3 text-2xl md:text-4xl font-bold text-white capitalize">
+								Wedding management
+							</h1>
+
+							<div className="flex gap-5">
+								<Link
+									className="mt-4 capitalize text-primary-color font-semibold text-lg flex gap-3 items-center"
+									to="https://react-wedding-planning.web.app/"
+									target="_blank"
+								>
+									see project <img src={arrowIcon} alt="" />
+								</Link>
+								<Link
+									className="mt-4 capitalize text-primary-color font-semibold text-lg flex gap-3 items-center"
+									to="https://github.com/Solaiman366882/fire-auth-react"
+									target="_blank"
+								>
+									see code <img src={arrowIcon} alt="" />
+								</Link>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
